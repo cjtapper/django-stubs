@@ -128,3 +128,10 @@ from .constraints import (
     CheckConstraint as CheckConstraint,
     UniqueConstraint as UniqueConstraint,
 )
+
+from . enums import (
+  ChoicesMeta as ChoicesMeta,
+  Choices as Choices,
+  IntegerChoices as IntegerChoices,
+  TextChoices as TextChoices
+)
